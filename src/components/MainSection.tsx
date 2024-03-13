@@ -47,7 +47,7 @@ function MainSection() {
       <div className="h-[20rem] md:w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
     
       <div className='flex space-x-3  pb-4'>
-            <Link href='/'><Image className='h-16 w-16 sm:w-12 sm:h-12 rotate-180' src={VaultImg} alt=""  /></Link>
+            <Link href='/'><Image className='md:h-16 md:w-16 sm:w-12 sm:h-12 rotate-180' src={VaultImg} alt=""  /></Link>
         
           
           <h1 className="md:text-7xl sm:text-5xl font-bold ">DevVault</h1 >
