@@ -24,7 +24,7 @@ function Search() {
         name='search'
         ref={searchElement}
         
-        placeholder='type here to get started..'
+        placeholder='search using your tech stack..'
         className='bg-transparent border-2 border-neutral-500 sm:w-[300px] md:w-[500px]  px-4 py-1 
         rounded-3xl h-10  ' />
         

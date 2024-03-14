@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
       <p className="mb-4 text-sm">
-      Crafted with user-friendly simplicity in mind, this repository has been meticulously designed to function as a swift clone-and-go solution. By adopting this project, you liberate yourself from the cumbersome hassles associated with the initial setup process.
+      By adopting DevVault, you liberate yourself from the cumbersome hassles associated with the initial setup process.
       Save time, eliminate complexities, and elevate your coding experience effortlessly. Welcome to a hassle-free start!
       </p>
     </div>
@@ -30,14 +30,7 @@ function Footer() {
             About
           </a>
         </li>
-        <li>
-          <a
-            href="#"
-            className="hover:text-white transition-colors duration-300"
-          >
-            Courses
-          </a>
-        </li>
+        
         <li>
           <a
             href="#"
@@ -55,7 +48,7 @@ function Footer() {
           href="#"
           className="hover:text-white transition-colors duration-300"
         >
-          Facebook
+          Github
         </a>
         <a
           href="#"
@@ -67,7 +60,7 @@ function Footer() {
           href="#"
           className="hover:text-white transition-colors duration-300"
         >
-          Instagram
+          Peerlist
         </a>
       </div>
     </div>
