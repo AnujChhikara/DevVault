@@ -42,24 +42,24 @@ export const projects = [
       title: "React Router",
       description:
         "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-      link: "https://microsoft.com",
+      link: "https://microsoft11.com",
     },
     {
       title: "React Router",
       description:
         "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-      link: "https://microsoft.com",
+      link: "https://microsoft13.com",
     },
   ];
 
 export default function CommomSearch() {
   return (
     <div className="flex flex-col justify-center items-center mt-12">
-      <h2 className="text-7xl font-semibold">Most Used Code</h2>
+      <h2 className="md:text-7xl sm:text-4xl font-semibold">Most Used Code</h2>
       <div className="max-w-7xl mx-auto px-4">
 
       
-      <HoverEffect className="w-full" items={projects} /></div>
+      <HoverEffect className="md:w-full" items={projects} /></div>
     </div>
   );
 }
