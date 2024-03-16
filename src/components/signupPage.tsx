@@ -7,6 +7,8 @@ import {
   IconBrandGithub,
   IconBrandGoogle,
 } from "@tabler/icons-react";
+import Link from "next/link";
+
 
 export default function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -14,7 +16,7 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mt-24  mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
+    <div className="max-w-md w-full   mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
       <h2 className="font-bold text-4xl text-neutral-200">
         Welcome to DevVault
       </h2>
@@ -40,11 +42,11 @@ export default function SignupFormDemo() {
           <Input id="password" placeholder="••••••••" type="password" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label htmlFor="twitterpassword">Your twitter password</Label>
+          <Label htmlFor="confirmPassword">Confirm password</Label>
           <Input
-            id="twitterpassword"
+            id="confirmPassword"
             placeholder="••••••••"
-            type="twitterpassword"
+            type="confirmPassword"
           />
         </LabelInputContainer>
 
@@ -55,6 +57,7 @@ export default function SignupFormDemo() {
           Sign up &rarr;
           <BottomGradient />
         </button>
+       
 
         <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 

@@ -1,43 +1,23 @@
-"use client";
-import Image from 'next/image'
-import VaultImg from '@/app/assets/vault.png'
-import Link from 'next/link'
-import { FloatingNav } from "./ui/floating-navbar";
+'use client';
 
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import Link from "next/link";
+
 
 function Navbar() {
-    const navItems = [
-        {
-          name: "Home",
-          link: "/",
-          icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
-        },
-        {
-          name: "About",
-          link: "/about",
-          icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
-        },
-        {
-          name: "Contact",
-          link: "/contact",
-          icon: (
-            <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-          ),
-        },
-      ];
-    
-    
+
   return (
-  
-        <div className="relative  w-full">
-      <FloatingNav navItems={navItems} />
-     
-       </div>
-  
+    <div
+    className="fixed  flex items-center justify-center top-10 pb-4  inset-x-0 max-w-2xl mx-auto z-50 "
+    >
+      <div className="flex bg-black space-x-4 rounded-[30px] border border-gray-400  px-8 py-4 ">
+
+    
+       <Link className="hover:text-gray-400 duration-500" href="/">Home</Link>
+       <Link className="hover:text-gray-400 duration-500"  href="/docs">Quick Start</Link>
+       <Link className="hover:text-gray-400 duration-500" href="/login">Login</Link>
+       <Link className="hover:text-gray-400 duration-500" href="/signup">Register</Link>  </div>
+    </div>
   )
 }
-
-
 
 export default Navbar

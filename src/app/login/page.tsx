@@ -1,10 +1,11 @@
-import SignupFormDemo from '@/components/signupPage'
+
+import LoginFormDemo from '@/components/loginInpage'
 import React from 'react'
 
 function page() {
   return (
-    <div>
-        <SignupFormDemo/>
+    <div className='pt-20'>
+        <LoginFormDemo/>
     </div>
   )
 }
