@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <div
-    className="fixed  flex items-center justify-center top-10 pb-4  inset-x-0 max-w-2xl mx-auto z-50 "
+    className="fixed  flex items-center justify-center top-10 pb-4  inset-x-0 max-w-2xl  mx-auto z-50 "
     >
       <div className="flex bg-black space-x-4 rounded-[30px] border border-gray-400  px-8 py-4 ">
 
