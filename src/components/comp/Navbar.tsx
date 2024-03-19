@@ -13,9 +13,8 @@ function Navbar() {
 
     
        <Link className="hover:text-gray-400 duration-500" href="/">Home</Link>
-       <Link className="hover:text-gray-400 duration-500"  href="/docs">Quick Start</Link>
-       <Link className="hover:text-gray-400 duration-500" href="/login">Login</Link>
-       <Link className="hover:text-gray-400 duration-500" href="/signup">Register</Link>  </div>
+       <Link className="hover:text-gray-400 duration-500"  href="/quickStart">Quick Start</Link>
+       <Link className="hover:text-gray-400 duration-500" href="/gradientGenerator">Gradient</Link> </div>
     </div>
   )
 }

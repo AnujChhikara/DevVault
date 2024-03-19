@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link"
-import { Spotlight } from "./ui/Spotlight"
+import { Spotlight } from "../ui/Spotlight"
 import Image from "next/image";
-import VaultImg from '../app/assets/vault.png'
-import { TypewriterEffect } from "./ui/typewriter-effect";
-import { SparklesCore } from "./ui/sparkles";
+import VaultImg from '../../app/assets/vault.png'
+import { TypewriterEffect } from "../ui/typewriter-effect";
+import { SparklesCore } from "../ui/sparkles";
 
 function MainSection() {
   const words = [

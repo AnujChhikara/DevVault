@@ -1,4 +1,4 @@
-import GradientGenerator from '@/components/gradient'
+import GradientGenerator from '@/components/comp/gradient'
 import React from 'react'
 
 function page() {
